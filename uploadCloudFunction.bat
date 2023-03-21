@@ -1,0 +1,1 @@
+"E:\Studysoftware\微信web开发者工具\cli.bat" cloud functions deploy --e cloud-xyyy-0gzfrl0g5a3ac7c8 --n quickstartFunctions --r --project "E:\Studysoftware\DN2022-06\1\18- WEIXIN\XyyyCloudVersion" --report_first --report
