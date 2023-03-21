@@ -1,6 +1,7 @@
 {
     "pages": [
       "pages/index/index",
+      "pages/citylist/citylist",
       "pages/theatre/theatre",
       "pages/me/me",
       "pages/movie/movie"

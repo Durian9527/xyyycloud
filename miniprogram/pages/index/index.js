@@ -1,9 +1,9 @@
 // index.js
 Page({
   data: {
+    cityname: '未选择',
     cid: 1,
     movies: [],
-    cityname: ''
   },
 
   /**
@@ -94,6 +94,12 @@ Page({
       this.setData({ movies: data });
     });
   },
+
+  onShow() {
+    let cityname = getApp().globalData.cityname
+    this.setData({cityname})
+  },
+
   /**
    * 加载当前城市信息
    */

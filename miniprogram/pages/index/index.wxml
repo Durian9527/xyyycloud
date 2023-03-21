@@ -3,8 +3,10 @@
   <view class="top-nav-inner">
     <!-- 自动定位城市开始 -->
     <view class="city-entry">
-        <text class="city-name">{{cityname}}</text>
-        <text class="city-entry-arrow"></text>
+    <navigator url="/pages/citylist/citylist">
+      <text class="city-name">{{cityname}}</text>
+      <text class="city-entry-arrow"></text>
+    </navigator> 
     </view>
     <!-- 自动定位城市结束 -->
     <!-- 选项卡开始 -->

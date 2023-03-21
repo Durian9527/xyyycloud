@@ -7,5 +7,8 @@ App({
     wx.cloud.init({
       env: 'cloud-xyyy-0gzfrl0g5a3ac7c8'
     })
+  },
+  globalData: {
+    cityname: '未选择'
   }
 })
