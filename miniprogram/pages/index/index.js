@@ -112,7 +112,8 @@ Page({
       success: (res) => {
         let cityname = res.result.address_component.city
         this.setData({cityname})
-        console.log('逆地址解析结果：', cityname);
+        console.log('逆地址解析结果：', cityname)
+        getApp().globalData.cityname = cityname
       },
       fail: (err) => {
       console.warn(err)
